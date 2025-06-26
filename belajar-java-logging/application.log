@@ -1,0 +1,52 @@
+21:30:57.107 [main] WARN  com.m19y.learn.LevelTest - simple warn log
+21:30:57.108 [main] ERROR com.m19y.learn.LevelTest - simple error log
+21:53:06.013 [main] WARN  com.m19y.learn.LevelTest - simple warn log
+21:53:06.014 [main] ERROR com.m19y.learn.LevelTest - simple error log
+21:54:34.496 [main] INFO  com.m19y.learn.MyController - 2b560346-e30f-441f-a3ec-04487a94eff8 - controller save
+21:54:34.498 [main] INFO  com.m19y.learn.MyService - 2b560346-e30f-441f-a3ec-04487a94eff8 - service save
+21:54:34.498 [main] INFO  com.m19y.learn.MyRepository - 2b560346-e30f-441f-a3ec-04487a94eff8 - repository save
+22:00:55.849 [main] INFO  com.m19y.learn.MyController - [] - 9d8874b8-d03f-48f8-890c-465dd743ca25 - controller save
+22:00:55.851 [main] INFO  com.m19y.learn.MyService - [] - 9d8874b8-d03f-48f8-890c-465dd743ca25 - service save
+22:00:55.851 [main] INFO  com.m19y.learn.MyRepository - [] - 9d8874b8-d03f-48f8-890c-465dd743ca25 - repository save
+22:01:06.214 [main] INFO  com.m19y.learn.MyController - [] - dd0687cb-8fb3-48ca-b351-f8d1bb9f80be - controller save
+22:01:06.216 [main] INFO  com.m19y.learn.MyService - [] - dd0687cb-8fb3-48ca-b351-f8d1bb9f80be - service save
+22:01:06.216 [main] INFO  com.m19y.learn.MyRepository - [] - dd0687cb-8fb3-48ca-b351-f8d1bb9f80be - repository save
+22:03:17.300 [main] INFO  com.m19y.learn.MyController - [7a16c2f2-743b-486a-ab5a-9737b5c1c91a] - 7a16c2f2-743b-486a-ab5a-9737b5c1c91a - controller save
+22:03:17.301 [main] INFO  com.m19y.learn.MyService - [7a16c2f2-743b-486a-ab5a-9737b5c1c91a] - 7a16c2f2-743b-486a-ab5a-9737b5c1c91a - service save
+22:03:17.301 [main] INFO  com.m19y.learn.MyRepository - [7a16c2f2-743b-486a-ab5a-9737b5c1c91a] - 7a16c2f2-743b-486a-ab5a-9737b5c1c91a - repository save
+22:07:30.971 [main] INFO  com.m19y.learn.MyController - [a1cfdf7e-3a2c-4e95-b7c0-c59602122315] - controller save
+22:07:30.972 [main] INFO  com.m19y.learn.MyService - [a1cfdf7e-3a2c-4e95-b7c0-c59602122315] - service save
+22:07:30.972 [main] INFO  com.m19y.learn.MyRepository - [a1cfdf7e-3a2c-4e95-b7c0-c59602122315] - repository save
+22:09:40.903 [Thread-0] INFO  com.m19y.learn.MyController - [] - controller save
+22:09:40.904 [Thread-0] INFO  com.m19y.learn.MyService - [] - service save
+22:09:40.904 [Thread-0] INFO  com.m19y.learn.MyRepository - [] - repository save
+22:14:04.072 [Thread-1] INFO  com.m19y.learn.MyController - [73f321ae-538d-42b0-8c5c-fc30f2d151a1] - controller save
+22:14:04.072 [Thread-7] INFO  com.m19y.learn.MyController - [c448808c-9e6c-4ac4-b902-3d1ee0d3f5f4] - controller save
+22:14:04.072 [Thread-8] INFO  com.m19y.learn.MyController - [8927ab94-dda5-439f-b16e-e868d14c971c] - controller save
+22:14:04.072 [Thread-4] INFO  com.m19y.learn.MyController - [64f5b05c-da45-4383-b0b8-a7cbb86a5dad] - controller save
+22:14:04.072 [Thread-5] INFO  com.m19y.learn.MyController - [2ca55264-5064-4a3f-a41b-9a00b104b3d3] - controller save
+22:14:04.072 [Thread-6] INFO  com.m19y.learn.MyController - [59d62574-ba2c-4ddf-88af-db72b7d2251d] - controller save
+22:14:04.073 [Thread-8] INFO  com.m19y.learn.MyService - [8927ab94-dda5-439f-b16e-e868d14c971c] - service save
+22:14:04.073 [Thread-7] INFO  com.m19y.learn.MyService - [c448808c-9e6c-4ac4-b902-3d1ee0d3f5f4] - service save
+22:14:04.073 [Thread-5] INFO  com.m19y.learn.MyService - [2ca55264-5064-4a3f-a41b-9a00b104b3d3] - service save
+22:14:04.073 [Thread-6] INFO  com.m19y.learn.MyService - [59d62574-ba2c-4ddf-88af-db72b7d2251d] - service save
+22:14:04.072 [Thread-0] INFO  com.m19y.learn.MyController - [8f67d28b-8155-4f6b-bb6f-e7464fb3474c] - controller save
+22:14:04.073 [Thread-7] INFO  com.m19y.learn.MyRepository - [c448808c-9e6c-4ac4-b902-3d1ee0d3f5f4] - repository save
+22:14:04.073 [Thread-5] INFO  com.m19y.learn.MyRepository - [2ca55264-5064-4a3f-a41b-9a00b104b3d3] - repository save
+22:14:04.072 [Thread-3] INFO  com.m19y.learn.MyController - [15fa4dad-1f21-4d04-a360-963cec81bdbd] - controller save
+22:14:04.072 [Thread-9] INFO  com.m19y.learn.MyController - [658ef02b-114e-473b-b27a-fad8c956973c] - controller save
+22:14:04.072 [Thread-2] INFO  com.m19y.learn.MyController - [7d66a20f-a970-4929-b358-7d02381177f2] - controller save
+22:14:04.073 [Thread-4] INFO  com.m19y.learn.MyService - [64f5b05c-da45-4383-b0b8-a7cbb86a5dad] - service save
+22:14:04.073 [Thread-1] INFO  com.m19y.learn.MyService - [73f321ae-538d-42b0-8c5c-fc30f2d151a1] - service save
+22:14:04.073 [Thread-8] INFO  com.m19y.learn.MyRepository - [8927ab94-dda5-439f-b16e-e868d14c971c] - repository save
+22:14:04.073 [Thread-0] INFO  com.m19y.learn.MyService - [8f67d28b-8155-4f6b-bb6f-e7464fb3474c] - service save
+22:14:04.073 [Thread-6] INFO  com.m19y.learn.MyRepository - [59d62574-ba2c-4ddf-88af-db72b7d2251d] - repository save
+22:14:04.073 [Thread-3] INFO  com.m19y.learn.MyService - [15fa4dad-1f21-4d04-a360-963cec81bdbd] - service save
+22:14:04.073 [Thread-9] INFO  com.m19y.learn.MyService - [658ef02b-114e-473b-b27a-fad8c956973c] - service save
+22:14:04.074 [Thread-9] INFO  com.m19y.learn.MyRepository - [658ef02b-114e-473b-b27a-fad8c956973c] - repository save
+22:14:04.074 [Thread-3] INFO  com.m19y.learn.MyRepository - [15fa4dad-1f21-4d04-a360-963cec81bdbd] - repository save
+22:14:04.074 [Thread-4] INFO  com.m19y.learn.MyRepository - [64f5b05c-da45-4383-b0b8-a7cbb86a5dad] - repository save
+22:14:04.074 [Thread-1] INFO  com.m19y.learn.MyRepository - [73f321ae-538d-42b0-8c5c-fc30f2d151a1] - repository save
+22:14:04.074 [Thread-2] INFO  com.m19y.learn.MyService - [7d66a20f-a970-4929-b358-7d02381177f2] - service save
+22:14:04.074 [Thread-0] INFO  com.m19y.learn.MyRepository - [8f67d28b-8155-4f6b-bb6f-e7464fb3474c] - repository save
+22:14:04.074 [Thread-2] INFO  com.m19y.learn.MyRepository - [7d66a20f-a970-4929-b358-7d02381177f2] - repository save

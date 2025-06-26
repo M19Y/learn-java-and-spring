@@ -1,0 +1,5 @@
+| Format                                  | Contoh                                                  | Komentar                                       |
+| --------------------------------------- | ------------------------------------------------------- | ---------------------------------------------- |
+| `given_when_then`                       | `givenUnregisteredUser_whenLogin_thenThrowUnauthorized` | Sedikit lebih verbose                          |
+| `should_when`                           | `shouldThrowUnauthorized_whenLoginWithUnregisteredUser` | Lebih formal, banyak digunakan di Java testing |
+| **`action_withCondition_shouldResult`** | `login_withUnregisteredUser_shouldThrowUnauthorized`    | Lebih ekspresif dan mudah dipahami             |

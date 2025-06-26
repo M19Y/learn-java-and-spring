@@ -1,0 +1,77 @@
+<!--<configuration>-->
+<!--    <root level="debug">-->
+<!--        <appender class="ch.qos.logback.core.ConsoleAppender">-->
+<!--            <encoder>-->
+<!--                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--            </encoder>-->
+<!--        </appender>-->
+<!--    </root>-->
+<!--</configuration>-->
+
+<!--<configuration>-->
+
+<!--    <logger name="com.m19y.learn" level="trace"/>-->
+<!--    <root level="warn">-->
+<!--        <appender-ref ref="CONSOLE"/>-->
+<!--    </root>-->
+
+<!--    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+<!--</configuration>-->
+
+<!--<configuration>-->
+
+<!--<logger name="com.m19y.learn" level="trace"/>-->
+<!--<root level="warn">-->
+<!--    <appender-ref ref="CONSOLE"/>-->
+<!--    <appender-ref ref="simple-file"/>-->
+<!--</root>-->
+
+<!--<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--    <encoder>-->
+<!--        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--    </encoder>-->
+<!--</appender>-->
+
+<!--    <appender name="simple-file" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>application.log</file>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+<!--</configuration>-->
+
+<configuration>
+
+    <logger name="programmerzamannow" level="trace"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%X{requestId}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>application-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- each file should be at most 100MB, keep 60 days worth of history, but at most 20GB -->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%X{requestId}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="trace">TimeBasedRollingPolicy
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

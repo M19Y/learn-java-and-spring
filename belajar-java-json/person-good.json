@@ -1,0 +1,11 @@
+{
+  "id" : "66cde1d4-2cbc-41a6-ac9b-f7d35ef6d809",
+  "name" : "Abilal",
+  "age" : 8,
+  "hobbies" : [ "Swim", "Eat", "Coding" ],
+  "address" : {
+    "city" : "New York",
+    "street" : "New York street",
+    "country" : "USA"
+  }
+}

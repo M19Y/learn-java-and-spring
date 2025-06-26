@@ -1,0 +1,15 @@
+
+services:
+  mysql-db:
+    container_name: mysql-db
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: bro
+    ports:
+      - "3306:3306"
+    volumes:
+      - type: bind
+        source: "./data-mysql"
+        target: "/var/lib/mysql"
+        read_only: false
