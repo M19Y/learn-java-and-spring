@@ -1,0 +1,4 @@
+application:
+  name: sibar
+  version: 3
+  production-mode: true

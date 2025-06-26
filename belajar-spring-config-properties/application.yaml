@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: belajar-spring-config-properties
+  profiles:
+    active: production
+
+application:
+  owner: m19y
+  version: ${APPLICATION_VERSION:1}
+  production-mode: ${APPLICATION_PRODUCTION_MODE:false}
+  name: ${APPLICATION_NAME:Vro}
+
+  profile:
+    default: Default
+
+  database:
+    database: costume_db
+    username: db_username
+    password: db_password
+    url: https://example.com
+    whitelist-tables:
+      - products
+      - customers
+      - categories
+    max-tables-size:
+      products: 100
+      customers: 100
+      categories: 100
+
+  default-roles:
+    - id: default
+      name: Default Role
+    - id: guest
+      name: Guest Role
+
+  roles:
+    admin:
+      id: admin
+      name: Admin Role
+    finance:
+      id: finance
+      name: Finance Role
+
+  default-timeout: 10s
+  expired-date: 2001-09-11

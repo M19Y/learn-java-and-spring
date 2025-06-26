@@ -1,0 +1,25 @@
+2025-04-20T09:53:28.554+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99977
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99978
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99979
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99980
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99981
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99982
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99983
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99984
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99985
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99986
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99987
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99988
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99989
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99990
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99991
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99992
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99993
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99994
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99995
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99996
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99997
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99998
+2025-04-20T09:53:28.555+08:00  WARN 3272 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Hello 99999
+2025-04-20T09:53:59.599+08:00  WARN 14160 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Ini pesan warning
+2025-04-20T09:53:59.599+08:00 ERROR 14160 --- [belajar-spring-logging] [main] com.m19y.learn.LoggingTest               : Ini pesan error
